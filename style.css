@@ -1,0 +1,79 @@
+.container-fluid{
+
+    height: 100%;
+    
+}
+.trackColumn
+{
+    position: relative;
+    max-height: 100vh;
+    overflow-y: scroll;
+    padding:0px 20px 0px 20px;
+}
+
+.trackClass
+{
+    color:white;
+    border-bottom: 1px solid white;
+    padding:15px;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.musicHeader
+{
+    position: sticky;
+}
+
+.musicplayer-column
+{
+    padding:40px 20px 40px 20px;
+}
+.musicPlayer-box{
+    
+    width: 100%;
+    
+    padding:25px;
+
+    overflow: hidden;
+}
+.progress-bar{
+    width: 60%;
+    background: rgba(238, 234, 234, 0.52) !important;
+    height: 3px;
+    margin-left: 20%;
+}
+#currentProgress-bar{
+    width: 0%;
+    height: 100%;
+    background-color: #ffc107;
+    
+}
+.player-icon{
+   font-size: 25px;   
+}
+.player-icon i{
+    padding:0px 20px;
+    cursor: pointer;
+}
+.player-icon .pauseBtn 
+{
+    display: none;
+}
+
+#songName
+{
+    color:white;
+    font-weight: 400;
+}
+#artistName
+{
+    color:rgba(255, 255, 255, 0.541);
+    font-size: 15px;
+}
+
+#musicImg{
+    max-width: 250px;
+    max-height: 250px;
+}
